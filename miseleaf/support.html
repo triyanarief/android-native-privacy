@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Support information for Miseleaf: Recipe Book.">
+  <title>Miseleaf: Recipe Book · Support</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    body { margin: 0; background: #f8f5ee; color: #26231f; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: 0 0 8px; }
+    h2 { font-size: 1.25rem; margin: 40px 0 8px; }
+    .brand { color: #9b3f2e; font-weight: 700; letter-spacing: .02em; margin-bottom: 24px; }
+    .meta { color: #625b53; margin: 0 0 36px; }
+    a { color: #8c3828; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+    footer { border-top: 1px solid #d6cec3; margin-top: 48px; padding-top: 20px; font-size: .9rem; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #171512; color: #f6f0e7; }
+      .brand, a { color: #f0a08e; }
+      .meta { color: #c2b8ac; }
+      footer { border-color: #49433c; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Miseleaf: Recipe Book</div>
+    <h1>Support</h1>
+    <p class="meta">Last updated: 30 September 2026</p>
+    <p>For help with Miseleaf, email <a href="mailto:hello.triyan@gmail.com">hello.triyan@gmail.com</a>. Include your Android version, app version, and what happened. Avoid sending private recipe text, photos, or backup files unless they are needed for support and you are comfortable sharing them.</p>
+
+    <h2>Using the app</h2>
+    <p>Add and edit personal recipes, search or filter the library, mark favorites, and keep cooking progress on this device. You can select a recipe photo through Android's Photo Picker. Miseleaf works without an account or internet connection.</p>
+
+    <h2>Exporting and importing recipes</h2>
+    <p>In Settings, choose <strong>Export backup</strong> to save a readable JSON file through Android's document picker. Choose <strong>Import backup</strong> to select a file, review the new, updated, and unchanged counts, and decide whether to commit it. Matching recipe identifiers update existing recipes; unchanged records are skipped, and a matching recipe's device-local photo is retained.</p>
+    <p>The JSON file contains recipe content but not photo files or cooking-session progress. Keep it in a location you trust. If you choose a cloud-backed document provider, that provider handles the saved file under its own settings. Miseleaf does not automatically back up or sync your recipes, so an exported JSON file is the available way to move recipe text to another device.</p>
+
+    <h2>Removing local data</h2>
+    <p>You can delete individual recipes or use <strong>Delete all local data</strong> in Settings. Delete all clears the recipe database and attempts to remove app-managed photo copies; it does not delete JSON files saved outside the app or reset your appearance choice. Clear app storage in Android or uninstall to remove the remaining app-private data. Delete exported files separately from their chosen location.</p>
+
+    <h2>Privacy</h2>
+    <p>Read the <a href="./">Privacy Policy</a> for details about local data, photos, export/import, retention, and third-party document providers.</p>
+    <footer>Miseleaf: Recipe Book · Native Android app</footer>
+  </main>
+</body>
+</html>

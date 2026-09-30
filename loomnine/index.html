@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Loomnine: Sudoku · Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    body { margin: 0; background: #f8f9fc; color: #1d2940; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: 0 0 8px; }
+    h2 { font-size: 1.25rem; margin: 40px 0 8px; }
+    .brand { color: #283c66; font-weight: 700; letter-spacing: .02em; margin-bottom: 24px; }
+    .meta { color: #53627e; margin: 0 0 36px; }
+    a { color: #283c66; text-underline-offset: 3px; }
+    footer { border-top: 1px solid #d3dae8; margin-top: 48px; padding-top: 20px; font-size: .9rem; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111827; color: #f4f7fb; }
+      .brand, a { color: #a9bce9; }
+      .meta { color: #b5bfd1; }
+      footer { border-color: #59657b; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Loomnine: Sudoku</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: 30 September 2026</p>
+    <p>Loomnine: Sudoku is an offline Android puzzle app developed by Triyan Arif Wibowo. It does not require an account. This policy describes the data handling of the current app version.</p>
+
+    <h2>Information saved on your device</h2>
+    <p>The app saves your current puzzle, entered numbers, pencil notes, undo and redo history, elapsed time, hints used, and preferences such as high contrast, haptic feedback, and matching-number highlights. It also remembers onboarding and puzzle-rotation state. These records let you resume and play your puzzle; they are stored as JSON in the app's private files. The app does not use photos or attachments.</p>
+
+    <h2>Use and sharing</h2>
+    <p>The app uses your saved records to display the board, show progress and hints, and restore your settings. The current app does not request Internet permission, has no account, advertising or analytics feature, and its code does not send puzzle records to a developer server. We do not receive your puzzle records unless you choose to send them to us, for example in a support email. AndroidX libraries support the interface and app lifecycle. Android, Google Play, and any document provider you choose may process their own platform or file information under their respective policies.</p>
+
+    <h2>Backup and import files you choose</h2>
+    <p>Export runs only when you choose it. Android's document picker lets you choose where to save a JSON backup containing the puzzle, notes, move history, timer, hint count, and settings. A destination you choose may be cloud-backed and may store or sync that file under its own policy. Import reads a file you select and shows a preview before replacing the current puzzle and settings. The app does not upload backups automatically and cannot delete a backup saved outside the app.</p>
+
+    <h2>Storage protection and permissions</h2>
+    <p>The current save uses app-private storage and atomic file writes. The app does not add its own encryption to saved or exported JSON. Its manifest disables Android app backup, and its data-extraction rules exclude app-private files from cloud backup and device transfer. The current app does not request location, contacts, camera, microphone, Internet, or broad storage permission. The document picker grants access only to files you choose.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>Your current save remains until you replace it, choose <strong>Delete local data</strong> in Settings, clear the app's storage in Android, or uninstall. Delete local data resets the current puzzle and settings. If an unreadable save was preserved during recovery, a separate app-private recovery copy may remain; clearing app storage or uninstalling removes app-private copies. Backups you exported to another location are not deleted by the app and must be removed there separately.</p>
+
+    <h2>Changes and contact</h2>
+    <p>We will update this policy if the app's data practices change. For privacy questions or requests, email <a href="mailto:hello.triyan@gmail.com">hello.triyan@gmail.com</a>. Please avoid sending a puzzle backup unless it is needed to investigate your request. You can also read <a href="support.html">Support</a>.</p>
+    <footer>Loomnine: Sudoku · Native Android app</footer>
+  </main>
+</body>
+</html>

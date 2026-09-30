@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Loomnine: Sudoku · Support</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    body { margin: 0; background: #f8f9fc; color: #1d2940; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: 0 0 8px; }
+    h2 { font-size: 1.25rem; margin: 40px 0 8px; }
+    .brand { color: #283c66; font-weight: 700; letter-spacing: .02em; margin-bottom: 24px; }
+    .meta { color: #53627e; margin: 0 0 36px; }
+    a { color: #283c66; text-underline-offset: 3px; }
+    footer { border-top: 1px solid #d3dae8; margin-top: 48px; padding-top: 20px; font-size: .9rem; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111827; color: #f4f7fb; }
+      .brand, a { color: #a9bce9; }
+      .meta { color: #b5bfd1; }
+      footer { border-color: #59657b; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Loomnine: Sudoku</div>
+    <h1>Support</h1>
+    <p class="meta">Last updated: 30 September 2026</p>
+    <p>For help with Loomnine: Sudoku, email <a href="mailto:hello.triyan@gmail.com">hello.triyan@gmail.com</a>. Include your Android version, app version, what you expected, and what happened. Please do not send your puzzle backup unless it is needed to investigate the issue.</p>
+
+    <h2>Playing</h2>
+    <p>Choose an Easy, Medium, Hard, or Expert puzzle. You can enter numbers or pencil notes, undo and redo moves, check for conflicts, and ask for a logical hint. Progress is saved on this device. The app works without an account or internet connection and does not use photos.</p>
+
+    <h2>Exporting and restoring</h2>
+    <p>In Settings, choose <strong>Export puzzle</strong> to save a JSON backup through Android's document picker. The file can contain your puzzle, notes, move history, elapsed time, hints used, and settings. Choose <strong>Import puzzle</strong> to select a valid backup; review the preview before replacing your current puzzle and settings. A backup from the immediately previous version with a complete puzzle can be imported, but an older empty backup without an app identifier may be rejected for safety. A file saved to a cloud-backed destination is handled by that provider.</p>
+
+    <h2>Unreadable saves and deletion</h2>
+    <p>If the app reports an unreadable save, you can export the unreadable data before starting fresh. Starting fresh preserves a separate recovery copy in the app's private files. <strong>Delete local data</strong> resets the current puzzle and settings but does not remove backups you exported or a preserved recovery copy. To remove app-private recovery copies, clear the app's storage in Android or uninstall; delete exported backups from their chosen destination separately.</p>
+
+    <h2>Privacy</h2>
+    <p>Read the <a href="./">Privacy Policy</a> for details about local records, document providers, permissions, and deletion.</p>
+    <footer>Loomnine: Sudoku · Native Android app</footer>
+  </main>
+</body>
+</html>

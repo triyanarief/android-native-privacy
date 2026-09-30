@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Foliohush: Reading Log · Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    body { margin: 0; background: #f7f3ea; color: #20241f; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: 0 0 8px; }
+    h2 { font-size: 1.25rem; margin: 40px 0 8px; }
+    .brand { color: #2f5d50; font-weight: 700; letter-spacing: .02em; margin-bottom: 24px; }
+    .meta { color: #53665d; margin: 0 0 36px; }
+    a { color: #205949; text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+    footer { border-top: 1px solid #cbd8cf; margin-top: 48px; padding-top: 20px; font-size: .9rem; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #171916; color: #f5f1e8; }
+      .brand, a { color: #9bc9b8; }
+      .meta { color: #b8c8bc; }
+      footer { border-color: #486052; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Foliohush: Reading Log</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: 30 September 2026</p>
+    <p>Foliohush: Reading Log is an offline Android reading log. You can use this version without an account. This policy explains how the app handles information you enter.</p>
+
+    <h2>Information kept on your device</h2>
+    <p>The app saves book titles, authors, reading status, total and current page counts, private notes, and record dates in app-private storage. It uses these records to show your library, progress, search results, and overview. Changed but unsaved forms may be saved locally so you can review or discard them after a restart. Dark-theme and reduced-motion choices are also stored locally. This version has no developer-operated server, account sync, ads, or analytics feature. It does not automatically send your reading records to the developer.</p>
+    <p>The app has no book-photo, cover-upload, or camera feature; it does not ask you to provide photos.</p>
+
+    <h2>JSON export and your chosen destination</h2>
+    <p>Only when you choose Export data, Android's document picker asks where to save a JSON backup. The file contains book titles, authors, status, page counts and progress, private notes, and record dates. It is readable, unencrypted text. Anyone who can access the file can read it. The destination you select may be a cloud-backed document provider; that provider's storage, sharing, and privacy practices then apply to your file. The app does not export automatically. Exporting does not remove the local records.</p>
+
+    <h2>JSON import</h2>
+    <p>Only when you choose Import data, Android's document picker lets you select a file. The app reads it to show a preview; it changes the local library only after you confirm. A compatible import can add books or update matching records. The selected source file remains with its provider, and the app does not upload it to a developer server.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>Book records remain locally until you delete a book, confirm Delete all local data in Settings, clear the app's storage in Android, or uninstall the app. Deleting a book or all books removes their locally stored progress and notes. Delete all local data does not reset appearance preferences. You can discard an unsaved draft from its edit or recovery flow. Files exported outside the app are not removed by deleting local data or uninstalling the app; delete those files separately from their saved location. There is no app account to delete.</p>
+
+    <h2>Permissions, backup, and other software</h2>
+    <p>The current Android manifest does not request Internet, camera, location, contacts, or broad storage permission. It includes an AndroidX signature-level internal receiver permission. Android's document picker gives the app access to a file or destination you select. The app disables Android app backup and configures its database and preferences to be excluded from Android cloud-backup and device-transfer rules. Those settings do not encrypt the device or user-created export files, and exported files may be backed up by their chosen provider.</p>
+    <p>This version uses AndroidX for its interface and lifecycle, Kotlin coroutines for local work, and Gson for JSON backups. It does not include an ad, analytics, or crash-reporting SDK. Google Play, Android, and any document provider you choose may process their own installation, diagnostic, or file information under their respective policies.</p>
+
+    <h2>Changes and contact</h2>
+    <p>We will update this policy if the app's data practices change. For questions or privacy requests, email <a href="mailto:hello.triyan@gmail.com">hello.triyan@gmail.com</a>. For help using the app, see <a href="support.html">Support</a>.</p>
+    <footer>Foliohush: Reading Log · Native Android app</footer>
+  </main>
+</body>
+</html>
