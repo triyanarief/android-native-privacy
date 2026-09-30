@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Foliolet: Notes · Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    body { margin: 0; background: #fbfaf8; color: #312839; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: 0 0 8px; }
+    h2 { font-size: 1.25rem; margin: 40px 0 8px; }
+    .brand { color: #604b79; font-weight: 700; letter-spacing: .02em; margin-bottom: 24px; }
+    .meta { color: #6c6374; margin: 0 0 36px; }
+    a { color: #604b79; text-underline-offset: 3px; }
+    footer { border-top: 1px solid #ddd8df; margin-top: 48px; padding-top: 20px; font-size: .9rem; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #1d1821; color: #f2edf4; }
+      .brand, a { color: #c9b3e1; }
+      .meta { color: #c5b7cb; }
+      footer { border-color: #53475a; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Foliolet: Notes</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: 30 September 2026</p>
+    <p>Foliolet: Notes is an offline Android notes app developed by Triyan Arif Wibowo. You can use it without an account.</p>
+
+    <h2>Information on your device</h2>
+    <p>The app stores the notes you write, their tags and links, an unfinished draft, and app-lock settings in private storage on your device. It does not request Android's internet permission and does not send your notes to a developer server. Note text and drafts are not separately encrypted by the app; avoid entering information that requires stronger protection than your device provides.</p>
+
+    <h2>App lock</h2>
+    <p>If you enable App lock, Android asks for a configured device credential when the app is reopened. This is a screen-access control, not encryption of the note database or of exported files. The app also asks Android to hide its screen contents from ordinary recent-app previews and screenshots. You can turn App lock off in the app's Privacy screen.</p>
+
+    <h2>Export and import</h2>
+    <p>When you choose Export, Android's document picker lets you save a UTF-8 JSON file containing full note text, tags, and metadata. The file is plain text, not encrypted. A destination you choose may be a cloud-backed provider, and that provider's privacy and backup settings apply. The app does not export automatically. You can choose a JSON backup for Import; the app previews it and merges supported records into local storage.</p>
+
+    <h2>Deletion and retention</h2>
+    <p>Notes remain on your device until you delete them. The app's confirmed Delete all action removes notes, tags, and the unfinished draft; app preferences such as the lock setting may remain. Clearing the app's storage through Android settings or uninstalling removes its remaining local data. Exported JSON files are outside the app and must be deleted from their chosen destination separately. The app disables Android backup and device transfer of its private data; it does not offer automatic cloud sync or account recovery.</p>
+
+    <h2>Third parties</h2>
+    <p>The current app includes AndroidX interface and device-credential libraries, but no advertising, analytics, or external data-service SDK. Google Play and Android may separately process installation and diagnostic information under Google's policies.</p>
+
+    <h2>Changes and contact</h2>
+    <p>We will update this policy if the app's data practices change. For questions or privacy requests, email <a href="mailto:hello.triyan@gmail.com">hello.triyan@gmail.com</a>.</p>
+    <footer>Foliolet: Notes · Native Android app</footer>
+  </main>
+</body>
+</html>
